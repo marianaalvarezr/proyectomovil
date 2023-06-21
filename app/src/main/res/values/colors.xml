@@ -149,6 +149,7 @@
     <item name="ivory" type="color">#fffff0</item>
 
 
+
     <integer-array name="EditColors">
 
         <item>@color/black</item>
