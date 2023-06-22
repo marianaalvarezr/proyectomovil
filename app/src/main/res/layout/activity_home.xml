@@ -5,18 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Home"
-    android:background="@color/tan">
+    android:background="@color/white">
 
     <ImageView
         android:id="@+id/logo"
-        android:src="@drawable/puestadesol"
+        android:src="@drawable/tituloo"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        app:layout_constraintVertical_bias="0.1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:layout_constraintVertical_bias="0.2"
         />
     <TextView
         android:id="@+id/titulo"
@@ -24,11 +24,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.05"
-        android:text="CABO DE LA VELA"
+        app:layout_constraintVertical_bias="0.08"
+        android:text="¡HOLA!"
         android:textStyle="bold"
         android:textSize="22dp"
-        android:textColor="@color/sienna"
+        android:textColor="@color/color2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
@@ -38,8 +38,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.2"
-        android:backgroundTint="@color/sienna"
+        app:layout_constraintVertical_bias="0.1"
+        android:backgroundTint="@color/color3"
         android:text="HOTELES"
         android:layout_marginHorizontal="40dp"
         android:layout_width="match_parent"
@@ -51,7 +51,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.05"
-        android:backgroundTint="@color/sienna"
+        android:backgroundTint="@color/color5"
         android:text="RESTAURANTES"
         android:layout_marginHorizontal="40dp"
         android:layout_width="match_parent"
@@ -63,10 +63,33 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.05"
-        android:backgroundTint="@color/sienna"
+        android:backgroundTint="@color/color4"
         android:text="SITIOS"
         android:layout_marginHorizontal="40dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/palmera"
+        android:src="@drawable/bannerr"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="800dp"
+        android:layout_height="105dp"
+        app:layout_constraintVertical_bias="1"
+        />
+    <ImageView
+        android:id="@+id/rectanguloamarillo"
+        android:src="@drawable/rectanguloamarillo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="800dp"
+        android:layout_height="15dp"
+        app:layout_constraintVertical_bias="0"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
